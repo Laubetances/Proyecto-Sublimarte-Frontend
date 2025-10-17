@@ -1,0 +1,17 @@
+CARPETAS DE GESTIÓN DE DEPENDENCIAS Y COMPILACIÓN (IGNORAR)
+/frontend/node_modules
+/frontend/.next
+/frontend/out
+/backend/venv
+/backend/pycache
+/backend/*.pyc
+
+ARCHIVOS GRANDES DE USUARIO (CLAVE)
+/backend/uploads/
+
+ARCHIVOS DE CONFIGURACIÓN LOCAL (IGNORAR)
+.env
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+.verce
