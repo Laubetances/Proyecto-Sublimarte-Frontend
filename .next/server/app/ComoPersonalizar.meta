@@ -3,5 +3,13 @@
     "x-nextjs-stale-time": "300",
     "x-nextjs-prerender": "1",
     "x-next-cache-tags": "_N_T_/layout,_N_T_/ComoPersonalizar/layout,_N_T_/ComoPersonalizar/page,_N_T_/ComoPersonalizar"
-  }
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/ComoPersonalizar/__PAGE__",
+    "/ComoPersonalizar",
+    "/_index",
+    "/_head"
+  ]
 }

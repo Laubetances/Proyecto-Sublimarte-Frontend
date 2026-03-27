@@ -3,5 +3,13 @@
     "x-nextjs-stale-time": "300",
     "x-nextjs-prerender": "1",
     "x-next-cache-tags": "_N_T_/layout,_N_T_/devolucion/layout,_N_T_/devolucion/page,_N_T_/devolucion"
-  }
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/devolucion/__PAGE__",
+    "/devolucion",
+    "/_index",
+    "/_head"
+  ]
 }

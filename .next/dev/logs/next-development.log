@@ -1,17 +1,17 @@
-{"timestamp":"00:00:03.099","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:01:29.157","source":"Server","level":"WARN","message":"Firebase config no está disponible. El carrito será temporal."}
-{"timestamp":"00:01:29.925","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
-{"timestamp":"00:01:30.003","source":"Browser","level":"WARN","message":"Firebase config no está disponible. El carrito será temporal."}
-{"timestamp":"00:01:30.165","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mFirebase config no está disponible. El carrito será temporal.\\u001b[39m\" \"\\u001b[2m(context/CartContext.js:51:17)\\u001b[22m\""}
-{"timestamp":"00:01:30.165","source":"Browser","level":"WARN","message":"\u001b[33mFirebase config no está disponible. El carrito será temporal.\u001b[39m"}
-{"timestamp":"00:01:30.437","source":"Browser","level":"WARN","message":"Firebase no está completamente inicializado. Usando carrito temporal."}
-{"timestamp":"00:01:30.501","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mFirebase no está completamente inicializado. Usando carrito temporal.\\u001b[39m\" \"\\u001b[2m(context/CartContext.js:81:21)\\u001b[22m\""}
-{"timestamp":"00:01:30.502","source":"Browser","level":"WARN","message":"\u001b[33mFirebase no está completamente inicializado. Usando carrito temporal.\u001b[39m"}
-{"timestamp":"00:06:46.598","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
-{"timestamp":"00:06:46.663","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mFirebase config no está disponible. El carrito será temporal.\\u001b[39m\" \"\\u001b[2m(context/CartContext.js:51:17)\\u001b[22m\""}
-{"timestamp":"00:06:46.663","source":"Browser","level":"WARN","message":"\u001b[33mFirebase config no está disponible. El carrito será temporal.\u001b[39m"}
-{"timestamp":"00:06:46.664","source":"Browser","level":"WARN","message":"Firebase config no está disponible. El carrito será temporal."}
-{"timestamp":"00:06:47.048","source":"Browser","level":"WARN","message":"Firebase no está completamente inicializado. Usando carrito temporal."}
-{"timestamp":"00:06:47.055","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mFirebase no está completamente inicializado. Usando carrito temporal.\\u001b[39m\" \"\\u001b[2m(context/CartContext.js:81:21)\\u001b[22m\""}
-{"timestamp":"00:06:47.056","source":"Browser","level":"WARN","message":"\u001b[33mFirebase no está completamente inicializado. Usando carrito temporal.\u001b[39m"}
-{"timestamp":"00:14:08.488","source":"Server","level":"LOG","message":"✓ Compiled in 1322ms"}
+{"timestamp":"00:00:02.909","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:22.697","source":"Server","level":"WARN","message":"Firebase config no está disponible. El carrito será temporal."}
+{"timestamp":"00:00:23.269","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:00:23.321","source":"Browser","level":"WARN","message":"Firebase config no está disponible. El carrito será temporal."}
+{"timestamp":"00:00:23.467","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mFirebase config no está disponible. El carrito será temporal.\\u001b[39m\" \"\\u001b[2m(context/CartContext.js:51:17)\\u001b[22m\""}
+{"timestamp":"00:00:23.467","source":"Browser","level":"WARN","message":"\u001b[33mFirebase config no está disponible. El carrito será temporal.\u001b[39m"}
+{"timestamp":"00:00:23.683","source":"Browser","level":"WARN","message":"Firebase no está completamente inicializado. Usando carrito temporal."}
+{"timestamp":"00:00:23.714","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mFirebase no está completamente inicializado. Usando carrito temporal.\\u001b[39m\" \"\\u001b[2m(context/CartContext.js:81:21)\\u001b[22m\""}
+{"timestamp":"00:00:23.714","source":"Browser","level":"WARN","message":"\u001b[33mFirebase no está completamente inicializado. Usando carrito temporal.\u001b[39m"}
+{"timestamp":"00:04:09.087","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:04:09.144","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mFirebase config no está disponible. El carrito será temporal.\\u001b[39m\" \"\\u001b[2m(context/CartContext.js:51:17)\\u001b[22m\""}
+{"timestamp":"00:04:09.145","source":"Browser","level":"WARN","message":"\u001b[33mFirebase config no está disponible. El carrito será temporal.\u001b[39m"}
+{"timestamp":"00:04:09.145","source":"Browser","level":"WARN","message":"Firebase config no está disponible. El carrito será temporal."}
+{"timestamp":"00:04:09.514","source":"Browser","level":"WARN","message":"Firebase no está completamente inicializado. Usando carrito temporal."}
+{"timestamp":"00:04:09.520","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mFirebase no está completamente inicializado. Usando carrito temporal.\\u001b[39m\" \"\\u001b[2m(context/CartContext.js:81:21)\\u001b[22m\""}
+{"timestamp":"00:04:09.520","source":"Browser","level":"WARN","message":"\u001b[33mFirebase no está completamente inicializado. Usando carrito temporal.\u001b[39m"}
+{"timestamp":"00:10:42.623","source":"Server","level":"LOG","message":"○ Compiling /terminos ..."}

@@ -3,5 +3,14 @@
     "x-nextjs-stale-time": "300",
     "x-nextjs-prerender": "1",
     "x-next-cache-tags": "_N_T_/layout,_N_T_/personalizar/layout,_N_T_/personalizar/3d/layout,_N_T_/personalizar/3d/page,_N_T_/personalizar/3d"
-  }
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/personalizar/3d/__PAGE__",
+    "/personalizar/3d",
+    "/personalizar",
+    "/_index",
+    "/_head"
+  ]
 }

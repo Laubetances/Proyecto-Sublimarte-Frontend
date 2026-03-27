@@ -3,5 +3,13 @@
     "x-nextjs-stale-time": "300",
     "x-nextjs-prerender": "1",
     "x-next-cache-tags": "_N_T_/layout,_N_T_/envios/layout,_N_T_/envios/page,_N_T_/envios"
-  }
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/envios/__PAGE__",
+    "/envios",
+    "/_index",
+    "/_head"
+  ]
 }

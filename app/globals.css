@@ -24,3 +24,11 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+html {
+  font-size: 16px; /* tamaño base consistente */
+}
+
+body {
+  font-size: 1rem; /* asegura que el texto se mantenga igual */
+  line-height: 1.5; /* mejora la legibilidad */
+}
