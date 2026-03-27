@@ -3,76 +3,76 @@
 export default function NosotrosPage() {
   return (
     <>
-      {/* 🌐 Contenido principal */}
-      <main className="bg-white min-h-screen px-6 py-12 md:px-20">
+      <main className="bg-white min-h-screen px-4 py-6 md:px-10">
+        
         {/* 🎨 Sección de presentación */}
-        <section className="relative w-full py-20 bg-gradient-to-r from-pink-100 via-white to-pink-100">
-          <div className="max-w-4xl mx-auto text-center px-6">
-            <h2 className="text-5xl font-extrabold text-pink-700 mb-10 drop-shadow-md">
+        <section className="relative w-full py-8 bg-gradient-to-r from-pink-100 via-white to-pink-100">
+          <div className="max-w-2xl mx-auto text-center px-3">
+            <h2 className="text-lg font-bold text-pink-700 mb-4">
               ¿Quiénes somos?
             </h2>
-            <p className="text-lg text-gray-700 mb-10 max-w-2xl mx-auto drop-shadow-sm">
+            <p className="text-sm text-gray-700 mb-4">
               En SublimArte creemos que cada diseño cuenta una historia. Creamos productos que conectan con emociones, momentos y personas.
             </p>
-            <div className="max-w-xl mx-auto rounded-2xl overflow-hidden shadow-lg">
+            <div className="max-w-xs mx-auto rounded-lg overflow-hidden shadow-sm">
               <img
                 src="/img/articulos.png"
                 alt="Ilustración emocional de SublimArte"
-                className="w-full h-auto object-cover"
+                className="w-full h-auto object-contain"
               />
             </div>
           </div>
         </section>
 
         {/* 🧵 Sección Nosotros */}
-        <section className="bg-white py-20 px-6 md:px-20">
-          <div className="max-w-4xl mx-auto text-justify">
-            <h2 className="text-3xl font-bold text-pink-600 mb-6 text-center">Nosotros</h2>
-            <p className="text-gray-700 text-lg leading-relaxed mb-6">
-              SublimArte nace del deseo de transformar ideas en objetos que emocionan. Somos una marca dominicana con raíces en Bonao, dedicada a la sublimación personalizada y al diseño emocional. Creemos que cada producto puede contar una historia, transmitir cariño y dejar huella.
+        <section className="bg-white py-8 px-4 md:px-10">
+          <div className="max-w-2xl mx-auto text-justify">
+            <h2 className="text-base font-bold text-pink-600 mb-3 text-center">Nosotros</h2>
+            <p className="text-sm text-gray-700 mb-3">
+              SublimArte nace del deseo de transformar ideas en objetos que emocionan. Somos una marca dominicana con raíces en Bonao, dedicada a la sublimación personalizada y al diseño emocional.
             </p>
-            <p className="text-gray-700 text-lg leading-relaxed">
-              Nos apasiona crear piezas únicas que conecten con personas reales: emprendedores, soñadores, familias, amigos. Desde una taza con tu frase favorita hasta un regalo que celebra momentos especiales, nuestro propósito es ayudarte a expresarte con autenticidad.
+            <p className="text-sm text-gray-700">
+              Nos apasiona crear piezas únicas que conecten con personas reales: emprendedores, soñadores, familias, amigos. Desde una taza con tu frase favorita hasta un regalo que celebra momentos especiales.
             </p>
           </div>
         </section>
 
         {/* 🎯 Misión, Visión y Valores */}
-        <section className="bg-white py-20 px-6 md:px-20">
-          <div className="max-w-4xl mx-auto text-justify">
-            <div className="mb-12">
-              <h2 className="text-3xl font-bold text-pink-600 mb-4 text-center">Nuestra misión</h2>
-              <p className="text-gray-700 text-lg leading-relaxed">
-                Empoderar a las personas a través del diseño personalizado, creando productos que reflejen su identidad, emociones y creatividad. Queremos que cada taza, camiseta o llavero sea una extensión de lo que sienten y sueñan.
+        <section className="bg-white py-8 px-4 md:px-10">
+          <div className="max-w-2xl mx-auto text-justify">
+            <div className="mb-6">
+              <h2 className="text-base font-bold text-pink-600 mb-2 text-center">Nuestra misión</h2>
+              <p className="text-sm text-gray-700">
+                Empoderar a las personas a través del diseño personalizado, creando productos que reflejen su identidad y emociones.
               </p>
             </div>
 
-            <div className="mb-12">
-              <h2 className="text-3xl font-bold text-pink-600 mb-4 text-center">Nuestra visión</h2>
-              <p className="text-gray-700 text-lg leading-relaxed">
-                Ser la marca líder en sublimación emocional en República Dominicana, reconocida por su autenticidad, calidez y diseño innovador. Aspiramos a inspirar a emprendedores, artistas y soñadores a través de productos que conectan con el corazón.
+            <div className="mb-6">
+              <h2 className="text-base font-bold text-pink-600 mb-2 text-center">Nuestra visión</h2>
+              <p className="text-sm text-gray-700">
+                Ser la marca líder en sublimación emocional en República Dominicana, reconocida por su autenticidad y diseño innovador.
               </p>
             </div>
 
             <div>
-              <h2 className="text-3xl font-bold text-pink-600 mb-8 text-center">Nuestros valores</h2>
-              <div className="space-y-8">
-                <div className="bg-pink-50 p-6 rounded-xl shadow-md">
-                  <h3 className="text-xl font-semibold text-pink-700 mb-2 text-center">Creatividad</h3>
-                  <p className="text-gray-700 text-base leading-relaxed">
-                    Diseñamos con alma, buscando siempre lo auténtico y lo emocional. Cada idea se convierte en una pieza única.
+              <h2 className="text-base font-bold text-pink-600 mb-4 text-center">Nuestros valores</h2>
+              <div className="space-y-4">
+                <div className="bg-pink-50 p-3 rounded-md shadow-sm">
+                  <h3 className="text-sm font-semibold text-pink-700 mb-1 text-center">Creatividad</h3>
+                  <p className="text-xs text-gray-700">
+                    Diseñamos con alma, buscando siempre lo auténtico y lo emocional.
                   </p>
                 </div>
-                <div className="bg-pink-50 p-6 rounded-xl shadow-md">
-                  <h3 className="text-xl font-semibold text-pink-700 mb-2 text-center">Calidez</h3>
-                  <p className="text-gray-700 text-base leading-relaxed">
-                    Cada producto está hecho con cariño, pensando en quien lo recibe. Queremos que cada entrega sea una experiencia.
+                <div className="bg-pink-50 p-3 rounded-md shadow-sm">
+                  <h3 className="text-sm font-semibold text-pink-700 mb-1 text-center">Calidez</h3>
+                  <p className="text-xs text-gray-700">
+                    Cada producto está hecho con cariño, pensando en quien lo recibe.
                   </p>
                 </div>
-                <div className="bg-pink-50 p-6 rounded-xl shadow-md">
-                  <h3 className="text-xl font-semibold text-pink-700 mb-2 text-center">Innovación</h3>
-                  <p className="text-gray-700 text-base leading-relaxed">
-                    Nos adaptamos, exploramos y evolucionamos con cada proyecto. Siempre buscamos nuevas formas de sorprender.
+                <div className="bg-pink-50 p-3 rounded-md shadow-sm">
+                  <h3 className="text-sm font-semibold text-pink-700 mb-1 text-center">Innovación</h3>
+                  <p className="text-xs text-gray-700">
+                    Nos adaptamos y evolucionamos con cada proyecto.
                   </p>
                 </div>
               </div>
@@ -81,8 +81,8 @@ export default function NosotrosPage() {
         </section>
 
         {/* 💬 Frase final */}
-        <section className="text-center">
-          <p className="text-xl italic text-pink-700">
+        <section className="text-center py-4">
+          <p className="text-sm italic text-pink-700">
             "No vendemos productos, creamos recuerdos que se imprimen en el corazón."
           </p>
         </section>

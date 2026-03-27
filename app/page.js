@@ -44,7 +44,7 @@ return (
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                     
                     {/* Título Principal */}
-                    <h1 className="text-4xl md:text-5xl font-extrabold text-pink-600 mb-2"> 
+                    <h1 className="text-2xl md:text-3xl font-extrabold text-pink-600 mb-2"> 
                         Regala emociones, no objetos
                     </h1>
                     

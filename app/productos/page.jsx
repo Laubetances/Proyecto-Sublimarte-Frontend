@@ -50,26 +50,26 @@ export default function ProductosPage() {
   };
 
   return (
-    <div className="min-h-screen bg-[#f5f0e6] py-12 px-6">
-      <h1 className="text-4xl font-bold text-pink-700 text-center mb-6">Nuestros Productos</h1>
+    <div className="min-h-screen bg-[#f5f0e6] py-6 px-3">
+      <h1 className="text-base font-bold text-pink-700 text-center mb-3">Nuestros Productos</h1>
 
       {mensaje && (
-        <div className="text-center mb-6 text-green-600 font-semibold">{mensaje}</div>
+        <div className="text-center mb-3 text-green-600 text-xs font-medium">{mensaje}</div>
       )}
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-4xl mx-auto">
         {productos.map((p) => (
-          <div key={p.id} className="bg-white rounded-xl shadow-lg p-6 text-center">
-            <img src={p.imagen} alt={p.nombre} className="h-32 mx-auto mb-4 object-contain" />
-            <h3 className="text-lg font-bold text-gray-800">{p.nombre}</h3>
-            <p className="text-sm text-gray-500 mt-1">Color: {p.color}</p>
-            <p className="text-sm text-gray-500 mb-2">Diseño: {p.diseño}</p>
-            <p className="text-pink-600 font-bold text-lg mb-4">RD${p.precio.toFixed(2)}</p>
+          <div key={p.id} className="bg-white rounded-md shadow-sm p-3 text-center">
+            <img src={p.imagen} alt={p.nombre} className="h-20 mx-auto mb-2 object-contain" />
+            <h3 className="text-sm font-semibold text-gray-800">{p.nombre}</h3>
+            <p className="text-xs text-gray-500">Color: {p.color}</p>
+            <p className="text-xs text-gray-500 mb-1">Diseño: {p.diseño}</p>
+            <p className="text-pink-600 font-bold text-sm mb-2">RD${p.precio.toFixed(2)}</p>
             <button
               onClick={() => handleAgregarAlCarrito(p)}
-              className="bg-pink-600 text-white px-6 py-2 rounded-full hover:bg-pink-700 transition"
+              className="bg-pink-600 text-white px-3 py-1 text-xs rounded-full hover:bg-pink-700 transition"
             >
-              Añadir al Carrito
+              Añadir
             </button>
           </div>
         ))}

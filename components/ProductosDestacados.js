@@ -99,7 +99,7 @@ export default function SeccionDestacados() {
     return (
         <main className="bg-white min-h-screen pt-8 py-16" id="productos">
             {/* Título más emocional */}
-            <h2 className="text-4xl font-extrabold text-center mb-12 text-gray-900">
+            <h2 className="text-2xl font-extrabold text-center mb-12 text-gray-900">
                 Inspírate con nuestros {" "}
                 <span className="text-pink-600">Favoritos</span>
             </h2>
