@@ -9,10 +9,12 @@ module.exports = {
   ],
   theme: {
     extend: {
-        fontSize: {
-        base: "1rem",   // 16px
-        sm: "0.875rem", // 14px
-        lg: "1.125rem", // 18px
+      fontSize: {
+        base: "1rem",    // 16px
+        sm: "0.875rem",  // 14px
+        lg: "1.125rem",  // 18px
+        xl: "1.25rem",   // 20px
+        "2xl": "1.5rem", // 24px
       },
     },
   },
