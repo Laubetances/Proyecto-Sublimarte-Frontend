@@ -1,1 +1,149 @@
-{"version":3,"caseSensitive":false,"basePath":"","rewrites":{"beforeFiles":[],"afterFiles":[],"fallback":[]},"redirects":[{"source":"/:path+/","destination":"/:path+","permanent":true,"internal":true,"regex":"^(?:\\/((?:[^\\/]+?)(?:\\/(?:[^\\/]+?))*))\\/$"}],"headers":[]}
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/Buscar",
+      "regex": "^/Buscar(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/Buscar(?:/)?$"
+    },
+    {
+      "page": "/carrito",
+      "regex": "^/carrito(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/carrito(?:/)?$"
+    },
+    {
+      "page": "/CheckoutPage",
+      "regex": "^/CheckoutPage(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/CheckoutPage(?:/)?$"
+    },
+    {
+      "page": "/ComoPersonalizar",
+      "regex": "^/ComoPersonalizar(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/ComoPersonalizar(?:/)?$"
+    },
+    {
+      "page": "/devolucion",
+      "regex": "^/devolucion(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/devolucion(?:/)?$"
+    },
+    {
+      "page": "/envios",
+      "regex": "^/envios(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/envios(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/login",
+      "regex": "^/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/login(?:/)?$"
+    },
+    {
+      "page": "/nosotros",
+      "regex": "^/nosotros(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/nosotros(?:/)?$"
+    },
+    {
+      "page": "/personalizar",
+      "regex": "^/personalizar(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/personalizar(?:/)?$"
+    },
+    {
+      "page": "/personalizar/3d",
+      "regex": "^/personalizar/3d(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/personalizar/3d(?:/)?$"
+    },
+    {
+      "page": "/personalizar/normal",
+      "regex": "^/personalizar/normal(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/personalizar/normal(?:/)?$"
+    },
+    {
+      "page": "/personalizarproducto",
+      "regex": "^/personalizarproducto(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/personalizarproducto(?:/)?$"
+    },
+    {
+      "page": "/privacidad",
+      "regex": "^/privacidad(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/privacidad(?:/)?$"
+    },
+    {
+      "page": "/productos",
+      "regex": "^/productos(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/productos(?:/)?$"
+    },
+    {
+      "page": "/terminos",
+      "regex": "^/terminos(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/terminos(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

@@ -12,12 +12,12 @@ const CreaTuPackCard = () => {
           {/* BLOQUE DE IMÁGENES */}
           <div className="flex flex-row justify-center gap-8">
             <img 
-              src="/img/pack-2-productos-sublimacion.jpg"
+              src="/img/Pack-2-productos-sublimacion.jpg"
               alt="Pack de tres productos personalizados"
               className="max-w-sm w-full object-contain rounded-xl shadow-md"
             />
             <img 
-              src="/img/pack-3-productos-sublimacion.jpg"
+              src="/img/Pack-3-productos-sublimacion.jpg"
               alt="Pack de dos productos personalizados"
               className="max-w-sm w-full object-contain rounded-xl shadow-md"
             />

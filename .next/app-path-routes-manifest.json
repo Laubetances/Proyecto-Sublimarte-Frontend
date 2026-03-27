@@ -1,0 +1,20 @@
+{
+  "/favicon.ico/route": "/favicon.ico",
+  "/_not-found/page": "/_not-found",
+  "/Buscar/page": "/Buscar",
+  "/CheckoutPage/page": "/CheckoutPage",
+  "/ComoPersonalizar/page": "/ComoPersonalizar",
+  "/carrito/page": "/carrito",
+  "/devolucion/page": "/devolucion",
+  "/envios/page": "/envios",
+  "/login/page": "/login",
+  "/nosotros/page": "/nosotros",
+  "/page": "/",
+  "/personalizar/3d/page": "/personalizar/3d",
+  "/personalizar/page": "/personalizar",
+  "/personalizar/normal/page": "/personalizar/normal",
+  "/privacidad/page": "/privacidad",
+  "/productos/page": "/productos",
+  "/personalizarproducto/page": "/personalizarproducto",
+  "/terminos/page": "/terminos"
+}
