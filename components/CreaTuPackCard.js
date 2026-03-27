@@ -5,9 +5,9 @@ import { GiftIcon } from '@heroicons/react/24/solid';
 
 const CreaTuPackCard = () => {
   return (
-    <section className="w-full bg-pink-50 py-0 -mt-100"> 
-      <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div className="bg-white border-2 border-pink-200 rounded-3xl p-12 shadow-xl grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+    <section className="w-full bg-pink-50 py-10 relative z-20"> 
+      <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="bg-white border-2 border-pink-200 rounded-3xl p-12 shadow-xl grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
 
           {/* BLOQUE DE IMÁGENES */}
           <div className="flex flex-row justify-center gap-8">
