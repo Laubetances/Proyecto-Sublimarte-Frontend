@@ -63,6 +63,7 @@
 
 @layer theme {
   :root, :host {
+    --font-sans: var(--font-geist-sans);
     --color-red-500: #fb2c36;
     --color-red-600: #e40014;
     --color-red-700: #bf000f;
@@ -2574,6 +2575,16 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--font-sans, Arial, Helvetica, sans-serif);
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 @property --tw-translate-x {

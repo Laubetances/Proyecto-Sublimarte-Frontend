@@ -8,7 +8,13 @@ module.exports = {
     "./lib/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+        fontSize: {
+        base: "1rem",   // 16px
+        sm: "0.875rem", // 14px
+        lg: "1.125rem", // 18px
+      },
+    },
   },
   plugins: [],
 }
